@@ -1,0 +1,47 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: palevioletred;
+}
+.text{
+    font-size: 2em;
+    margin: 10px;
+    padding: 5px;
+}
+.BtnClick{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+#submit{
+    width: 150px;
+    background-color: rgb(155, 216, 155);
+}
+.mainForm{
+    text-align: center;
+    display: none;
+}
+
+.body{
+    position: relative;
+    background-color: antiquewhite;
+}
+#styleCard{
+    background-color: rgb(213, 233, 38);
+    width: 100px;
+    height: 190px;
+    text-align: center;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    background-color: rgb(109, 214, 243);
+}
+#flowWord{
+    word-wrap: break-word;
+}
