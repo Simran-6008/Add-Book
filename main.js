@@ -34,17 +34,19 @@ function newCards(index) {
     card.setAttribute("id", "styleCard");
 
     let paraT = document.createElement("p");
-    paraT.setAttribute("id","flowWord")
+    paraT.setAttribute("class","flowWord")
     paraT.textContent = listOfBooks[index].title;
     card.appendChild(paraT);
     
 
     let paraA = document.createElement("p");
+    paraA.setAttribute("class","flowWord")
     paraA.textContent = listOfBooks[index].author;
     card.appendChild(paraA);
     
 
     let paraP = document.createElement("p");
+    paraP.setAttribute("class","flowWord")
     paraP.textContent = listOfBooks[index].pages;
     card.appendChild(paraP);
     
@@ -70,6 +72,7 @@ function newCards(index) {
     });
 
     let removeButton = document.createElement("button");
+    removeButton.setAttribute("id", "removeButton")
     removeButton.textContent = "Remove";
     card.appendChild(removeButton);
     container.appendChild(card);
